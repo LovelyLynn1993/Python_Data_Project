@@ -45,4 +45,71 @@ View my notebook with detailed steps here: [2_Skill_Demand.ipynb](WIP\2_Skill_De
 
 ### Insights:
 
+
+### 3. How well do jobs and skills pay for Data Analysts?
+
+### Salary Analysis for Data Nerds
+
+### Visualize Data
+```python
+sns.boxplot(data=df_US_top6, x='salary_year_avg', y='job_title_short', order=job_order)
+sns.set_theme(style='ticks')
+sns.despine()
+
+plt.title('Salary Distributions of Data Jobs in the US')
+plt.xlabel('Yearly Salary (USD)')
+plt.ylabel('')
+plt.xlim(0, 600000) 
+ticks_x = plt.FuncFormatter(lambda y, pos: f'${int(y/1000)}K')
+plt.gca().xaxis.set_major_formatter(ticks_x)
+plt.show()
+
+```
+![Salary distribution of Data jobs in the US](Images\Salary_Analysis.png)
+
+
+```python
+fig, ax = plt.subplots(2, 1)
+
+# Top 10 Highest Paid Skills for Data Analysts
+sns.barplot(data=df_DA_top_pay, x='median', y=df_DA_top_pay.index, hue='median', ax=ax[0], palette='dark:b_r')
+ax[0].legend().remove()
+ax[0].set_title('Highest Paid Skills for Data Analysts in the US')
+ax[0].set_ylabel('')
+ax[0].set_xlabel('')
+ax[0].xaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'${int(x/1000)}K'))
+
+# Top 10 Most In-Demand Skills for Data Analysts')
+sns.barplot(data=df_DA_skills, x='median', y=df_DA_skills.index, hue='median', ax=ax[1], palette='light:b')
+ax[1].legend().remove()
+ax[1].set_title('Most In-Demand Skills for Data Analysts in the US')
+ax[1].set_ylabel('')
+ax[1].set_xlabel('Median Salary (USD)')
+ax[1].set_xlim(ax[0].get_xlim())  # Set the same x-axis limits as the first plot
+ax[1].xaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'${int(x/1000)}K'))
+
+
+plt.tight_layout()
+plt.show()
+
+```
+### Results
+
+![The Highest Paid & Most In-Demand Skills for data Analyst in the US](Images\High_Skill_Most_Demand.png) 
+
+
+### Insights: 
+
+### 3. How well do jobs and skills pay for Data Analysts?
+
+### Salary Analysis for Data Nerds
+
+### Visualize Data
+
+### Results
+
+
+
+
+### Insights: 
 # Conclusion
