@@ -56,7 +56,7 @@ This analysis determines the most in-demand skills for the three most common dat
 
 The resulting query highlights the relationship between job title popularity and skill demand, providing role-specific insights into which technical skills should be prioritized when targeting each position.
 
-View my notebook with detailed steps here: [1_Skill_Demand.ipynb](WIP\Project\1_Skill_Demand.ipynb)
+View my notebook with detailed steps here: [1_Skill_Demand.ipynb](WIP/Project/1_Skill_Demand.ipynb)
 
 ### Visualize Data
 ```python
@@ -86,7 +86,7 @@ By ranking the top skills for each of the three most popular positions, the resu
 ### 2. How are in-demand skills trending for Data Analysis?
 To analyze skill trends for Data Analyst roles in 2023, job postings were filtered to include only Data Analyst positions and skills were grouped by the month each job was posted. This approach identified the top five skills per month, illustrating how demand for specific skills fluctuated throughout the year.
 
-View my notebook with detailed steps here: [2_Skill_Trend.ipynb](WIP\Project\2_Skills_Trend.ipynb)
+View my notebook with detailed steps here: [2_Skill_Trend.ipynb](WIP/Project/2_Skills_Trend.ipynb)
 
 ### Visualize Data
 ```python
@@ -114,7 +114,7 @@ This analysis shows that demand for Data Analyst skills is not static but change
 
 To identify the highest-paying roles and skills, job postings within the United States were filtered and analyzed using median salary values. Salary distributions were then examined for common data roles—such as Data Scientist, Data Engineer, and Data Analyst—to determine which positions offer the highest compensation.
 
-View my notebook with detailed steps here: [3_Salary_Analysis](WIP\Project\3_Salary_Analysis.ipynb)
+View my notebook with detailed steps here: [3_Salary_Analysis](WIP/Project/3_Salary_Analysis.ipynb)
 
 ### Visualize Data
 ```python
@@ -174,7 +174,7 @@ In order to identify the most optimal skill to learn for data analysis, is by ex
 
 By visualizing median salary versus percent skill demand, the analysis highlights skills that are not only widely requested but also associated with higher pay. This approach helps distinguish foundational tools from higher-value technologies and reveals which skills offer the strongest return on investment for aspiring data analysts, while also allowing for further investigation into the prevalence of specific technologies across the job market.
 
-View my notebook with detailed steps here: [4_Optimal_Skills](WIP\Project\4_Optimal_Skills.ipynb)
+View my notebook with detailed steps here: [4_Optimal_Skills](WIP/Project/4_Optimal_Skills.ipynb)
 
 ### Visualize Data
 
