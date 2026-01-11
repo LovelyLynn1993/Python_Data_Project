@@ -72,7 +72,8 @@ plt.show()
 ```
 
 ### Results
-![Likelihood of Skills Requesting in the US Job Postings'](Images\SkillsTrending.png)
+
+![Likelihood of Skills Requesting in the US Job Postings'](Images\1_SkillsTrending.png)
 *Bar graph visualizing the salary for the top 3 data roles and their top 5 skills associated with each.*
 
 ### Insights:
